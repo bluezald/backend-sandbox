@@ -32,6 +32,10 @@ Start MongoDB in a separate terminal:
 ```
 mongod
 ```
+Supposedly you can just start mongodb using the above command, but since I change my directory for db
+```
+sudo mongod --dbpath=/location/to/data/db
+```
 
  Start the server:
  ```
